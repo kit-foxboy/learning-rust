@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "description": "Reassemble dresser",
+    "is_priority": false,
+    "is_completed": false
+  },
+  {
+    "id": 2,
+    "description": "Put away laundry",
+    "is_priority": false,
+    "is_completed": false
+  },
+  {
+    "id": 3,
+    "description": "Go shower, stinky",
+    "is_priority": true,
+    "is_completed": false
+  }
+]
