@@ -20,12 +20,12 @@ pub mod cli {
         println!("{}", "┌─────────────────────────────────────┐".bright_blue());
         println!("{}", "│           🌟 MAIN MENU 🌟           │".bright_blue());
         println!("{}", "├─────────────────────────────────────┤".bright_blue());
-        println!("{} {}", "│ 1.".bright_white(), "Add a task UwU              📝 │".green());
-        println!("{} {}", "│ 2.".bright_white(), "Add important task 8w8      ⭐ │".yellow());
-        println!("{} {}", "│ 3.".bright_white(), "View tasks OwO              👀 │".cyan());
-        println!("{} {}", "│ 4.".bright_white(), "Mark task completed ^w^     ✅ │".bright_green());
-        println!("{} {}", "│ 5.".bright_white(), "Delete a task XwX           🗑️  │".red());
-        println!("{} {}", "│ 6.".bright_white(), "Exit ;w;                    🚪 │".bright_black());
+        println!("{} {}", "│ 1.".bright_white(), "Add a task                   UwU │".green());
+        println!("{} {}", "│ 2.".bright_white(), "Add important task           8w8 │".yellow());
+        println!("{} {}", "│ 3.".bright_white(), "View tasks                   OwO │".cyan());
+        println!("{} {}", "│ 4.".bright_white(), "Mark task completed          ^w^ │".bright_green());
+        println!("{} {}", "│ 5.".bright_white(), "Delete a task                XwX │".red());
+        println!("{} {}", "│ 6.".bright_white(), "Exit                         ;w; │".bright_black());
         println!("{}", "└─────────────────────────────────────┘".bright_blue());
         println!();
     }
@@ -55,7 +55,7 @@ pub mod cli {
     }
 
     pub fn get_input(prompt: &str) -> String {
-        print!("{} {}", "🦊".bright_yellow(), prompt.bright_white());
+        print!("{} {}", "-w-".bright_yellow(), prompt.bright_white());
         io::stdout().flush().unwrap();
 
         let mut input = String::new();
@@ -65,7 +65,7 @@ pub mod cli {
     
     pub fn get_input_as_int(prompt: &str) -> u8 {
         loop {
-            print!("{} {}", "🦊".bright_yellow(), prompt.bright_white());
+            print!("{} {}", "-w-".bright_yellow(), prompt.bright_white());
             io::stdout().flush().unwrap();
     
             let mut input = String::new();
